@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p class="wl">WELCOME!</p>
+  <div class="box">
+    <h1 class="RF">REGISTRATION-FORM</h1>
+    <form action="submit.php" method="POST">
+      <div class="r-form">
+        <div id="Na">
+         <label for="name">Name:</label>
+         <input id="name" type="text" placeholder="Enter Your Full Name" name="name" required>
+        </div>
+        <div id="Da">
+         <label for="dob">DOB:</label>
+         <input id="dob" type="date" placeholder="Enter Your Date Of Birth" name="dob" required>
+        </div>
+        <div id="Em">
+         <label for="e-mail">E-Mail</label>
+         <input id="e-mail" type="email" placeholder="Enter your E-Mail" name="e-mail" required>
+        </div>
+        <div id="Ye">
+         <label for="year">Year:</label>
+         <select id="year" name="year" required>
+            <option value="" disabled selected>Select study year</option>
+            <option value="option1">1</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+         </select>
+        </div>
+        <div id="Ba">
+         <label for="branch">Branch:</label>
+         <select id="branch"  name="branch" required>
+            <option value="" disabled selected>Select the Branch</option>
+            <option value="option1">AI-DS</option>
+            <option value="option2">AI-ML</option>
+            <option value="option3">CSE</option>
+            <option value="option4">Civil</option>
+            <option value="option5">MBA</option>
+            <option value="option6">Mechanical</option>
+            <option value="option7">Nursing</option>
+         </select>
+        </div>
+        <div id="Us">
+         <label for="usn1">USN:</label>
+         <input id="usn1" type="text" placeholder="Enter Your USN"name="usn1" required>
+        </div>
+        <div id="Se">
+         <label for="section">Section:</label>
+         <input id="section" type="text" placeholder="Enter your Section" name="section" required>
+        </div>
+         <button id="sub">SUBMIT</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

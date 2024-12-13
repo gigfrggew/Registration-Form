@@ -1,0 +1,298 @@
+/* *{
+    margin:0px;
+    padding:0px;
+}
+label{
+    font-size:20px;
+}
+body{
+    height:650px;
+}
+form{
+    height:514px;
+    width:500px;
+}
+.r-form{
+    height:514px;
+    width:504px;
+}
+.box{
+    margin-left:710px;
+    margin-top:150px;
+    margin-right:680px;
+    border:2px solid black;
+    border-radius:8px;
+}
+input{
+    display:inline;
+    height:30px;
+    width:300px;
+}
+#Na{
+    margin-bottom:35px;
+    margin-left:20px;
+}
+#Da{
+    margin-bottom:35px;
+    margin-left:20px;
+}
+#Em{
+    margin-bottom:35px;
+    margin-left:20px;
+}
+#Ye{
+    margin-bottom:35px;
+    margin-left:20px;
+    
+}
+#Br{
+    margin-bottom:35px;
+    margin-left:20px;
+}
+#Ba{
+    margin-bottom:35px;
+    margin-left:20px;
+}
+#Us{
+    margin-bottom:35px;
+    margin-left:20px;
+}
+#Se{
+    margin-bottom:35px;
+    margin-left:20px;
+}
+
+.RF{
+    padding-left:130px;
+    padding-bottom:50px;
+    font-size:35px;
+}
+#name{
+    margin-left:90px;
+    border-radius:7px;
+    border:.1px solid black;
+    
+}
+#dob{
+    margin-left:27px;
+    border-radius:7px;
+    border:1px solid black;
+}
+#e-mail{
+    margin-left:85px;
+    border-radius:7px;
+    border:1px solid black;
+}
+#year{
+    margin-left:22px;
+    height:30px;
+    border-radius:7px;
+    border:1px solid black;
+}
+#branch{
+    margin-left:80px;
+    height:30px;
+    border-radius:7px;
+    border:1px solid black;
+}
+#usn1{
+    margin-left:95px;
+    border-radius:7px;
+    border:1px solid black;
+}
+#section{
+    margin-left:75px;
+    border-radius:7px;
+    border:1px solid black;
+}
+#sub{
+    width:120px;
+    margin-left:200px;
+    padding-left:2px;
+    padding-right:2px;
+    border:1px solid black;
+    border-radius:10px;
+    font-size:18px;
+}
+
+
+ */
+ /* form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input, select {
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    align-self: center;
+    width: 150px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+} */
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color:black;
+}
+.wl{
+    margin-bottom:50px;
+    font-size:80px;
+    letter-spacing: 30px;
+    margin-left:60px;
+    background: linear-gradient(90deg, #e391ca, #780a57);
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.box{
+    width:500px;
+    height:650px;
+    border:2px solid black;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:10px;
+    transition:12.6s ease-out;
+    margin-bottom:30px;
+}
+.box:hover{
+    transform:scale(1.05);
+    transition:1.6s ease-in;
+    border:2px solid white;
+}
+input{
+    padding:3px;
+    margin-left:25px;
+    margin-bottom:30px;
+    width:20rem;
+    height:2rem;
+    border:0.1px solid white;
+    border-radius:10px;
+    padding-left:10px;
+    color:black;
+    transition:2.0s ease-out;
+}
+input::placeholder{
+    color:black;
+}
+input#dob{
+    margin-left:33px;
+}
+input:hover{
+    transition:0.5s ease;
+    transform:scale(1.05);
+}
+input#usn1{
+    margin-left:35px;
+}
+input#section{
+    margin-left:16px;
+}
+input#name{
+    margin-left:27px;
+}
+select{
+    color:black;
+    width:21rem;
+    height:2rem;
+    margin-left:12px;
+    margin-bottom:30px;
+    padding-left:10px;
+    border:0.1px solid white;
+    transition:2.0s ease-out;
+}
+
+select:hover{
+    transition:0.5s ease;
+    transform:scale(1.05);
+}
+select#year{
+    margin-left:39px;
+}
+select#branch{
+    margin-left:18px;
+}
+label{
+    color:white;
+    font-size:20px;
+}
+.r-form{
+    padding-top:20px;
+    margin:30px;
+    margin-top:10px;
+}
+#Se{
+    margin-bottom:20px;
+}
+button#sub{
+    height:2rem;
+    width:7rem;
+    margin-left:170px;
+    font-size:1rem;
+    color:white;
+    border:1px solid white;
+    background-color:purple;
+    border-radius:10px;
+}
+button:hover{
+    transform:scale(1.15);
+}
+.RF{
+    align-items:center;
+    margin-left:90px;
+    margin-right:50px;
+    margin-top:20px;
+    color:white;
+    border-bottom:3px solid purple;
+}
+
+/*html page2*/
+
+button.viewb{
+    font-size:1rem;
+    width:12rem;
+    height:3rem;
+    background-color:purple;
+    color:white;
+    border:1px solid white;
+    border-radius:15px;
+    transition:0.5s ease;
+}
